@@ -17,7 +17,23 @@ def computegrade(grade):
         score = 'D'
     else :
         score = 'F'
-    print(score)    
+    print(score)   
+    
+    
+def computescore():
+    score = input('Enter a score: ')
+    if score >= '0.9': 
+        score = 'A'
+    elif score >= '0.8':
+        score = 'B'
+    elif score >= '0.7':
+        score = 'C'
+    elif score >= '0.6':
+        score = 'D'
+    else :
+        score = 'F'
+    print(score)   
+    
         
 # test functions:    
 computepay(45, 10)
