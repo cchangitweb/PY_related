@@ -1,0 +1,27 @@
+def computepay(hours, rate):
+    if hours > 40:
+        pay = hours * 1.5 * rate
+    else: 
+        pay = hours * rate
+    print(pay)
+
+    
+def computegrade(grade):
+    if grade >= 0.9: 
+        score = 'A'
+    elif grade >= 0.8:
+        score = 'B'
+    elif grade >= 0.7:
+        score = 'C'
+    elif grade >= 0.6:
+        score = 'D'
+    else :
+        score = 'F'
+    print(score)    
+        
+# test functions:    
+computepay(45, 10)
+computepay(40, 10)
+computegrade(0.59)
+computegrade(0.8)
+computegrade(0.92)
