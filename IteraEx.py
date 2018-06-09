@@ -1,4 +1,4 @@
-# example of iteration and list 
+# example of iteration 
 n = 5
 while n > 0:
     print(n)
@@ -52,14 +52,5 @@ Happy New Year:  Sally
 Done!
 """ # end of output 
 
-# list example
-fruit = ["orange","apple","banana"]
-numbers = ['1', '-34','349']
-empty = []
-print(fruit, numbers, empty)
-
-# output 
-# ['orange', 'apple', 'banana'] ['1', '-34', '349'] []
-#
 
 ​
