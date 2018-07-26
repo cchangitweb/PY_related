@@ -3,6 +3,7 @@ formatter = "{} {} {} {}"
 print(formatter.format(1,2,3,4))
 print(formatter.format("one","2","Three","4"))
 print(formatter.format(formatter,formatter,formatter,formatter))
+print(formatter.format(formatter)) // IndexError: tuple index out of range
 
 output:
 1 2 3 4
